@@ -1,0 +1,17 @@
+{
+  "repositories": [
+    {
+      "type": "path",
+      "url": "./sdk"
+    }
+  ],
+  "require": {
+    "php": "^8.1",
+    "dagger/dagger": "*@dev"
+  },
+  "autoload": {
+    "psr-4": {
+      "DaggerModule\\": "src/"
+    }
+  }
+}
